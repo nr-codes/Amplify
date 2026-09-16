@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NEOS with Drag and Drop</title>
+    <link rel="stylesheet" href="html/dd.css">
+		<style>
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr); /* equal columns */
+				gap: 10px;
+				width: 100%;
+			}
+
+			.cell {
+				border: 1px solid #ccc;
+				padding: 8px;
+				word-break: break-word; /* ensures long text wraps */
+        background-color: #dbabab;
+			}
+    
+      .header {
+        font-weight: bold;
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+
+		.row {
+			display: flex;
+			gap: 10px; /* space between input and button */
+			align-items: center;
+			padding: 10px 0;
+		}
+
+		input {
+			padding: 8px;
+			flex: 1; /* makes input stretch */
+		}
+
+		button {
+			padding: 8px 16px;
+		}
+		</style>
+  </head>
+
+  <body>
+    <div id="drop-zone">
+      Drag & drop files here or click to upload
+      <input type="file" id="file-input" multiple hidden>
+    </div>
+
+		<div class="row">
+			<input type="email" id="emailInput" placeholder="Enter your email">
+			<button onclick="sendToNeos()" id="submitBtn">Submit</button>
+		</div>
+
+		<div class="grid"></div>
+
+    <div id="neos"></div>
+
+    <script src="html/core.js"></script>
+    <script src="html/rpc.js"></script>
+    <script src="html/dd.js"></script>
+  </body>
+</html>

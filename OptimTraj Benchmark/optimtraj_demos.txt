@@ -1,0 +1,1370 @@
+demo: Amplify_MAIN --- run: 1
+Elapsed time is 2.067139 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 1.9058
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 2
+Elapsed time is 0.565118 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.5135
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 3
+Elapsed time is 0.476913 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4213
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 4
+Elapsed time is 0.493140 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4326
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 5
+Elapsed time is 0.601859 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.5419
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 6
+Elapsed time is 0.492259 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4413
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 7
+Elapsed time is 0.492385 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4368
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 8
+Elapsed time is 0.467477 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4174
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 9
+Elapsed time is 0.437848 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3889
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN --- run: 10
+Elapsed time is 0.432554 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 55
+          funcCount: 5808
+    constrviolation: 5.0449e-13
+           stepsize: 1.2001e-05
+          algorithm: 'interior-point'
+      firstorderopt: 1.6821e-05
+       cgiterations: 7
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.634886e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.447487e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3829
+           exitFlag: 1
+             objVal: 38.9608
+              error: [4×19 double]
+           maxError: 6.6086
+        amplify_ndv: 102
+         amplify_nc: 0
+       amplify_nceq: 76
+      amplify_nzbnd: 102
+
+demo: acrobot
+demo: Amplify_MAIN_minForce --- run: 1
+Elapsed time is 0.455251 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4166
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 2
+Elapsed time is 0.441281 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4050
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 3
+Elapsed time is 0.411300 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3770
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 4
+Elapsed time is 0.415737 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3774
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 5
+Elapsed time is 0.416521 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3812
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 6
+Elapsed time is 0.407637 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3711
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 7
+Elapsed time is 0.408338 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3718
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 8
+Elapsed time is 0.432406 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3900
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 9
+Elapsed time is 0.459334 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4210
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minForce --- run: 10
+Elapsed time is 0.446908 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 38
+          funcCount: 5976
+    constrviolation: 3.4239e-13
+           stepsize: 6.6919e-05
+          algorithm: 'interior-point'
+      firstorderopt: 8.8835e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.748623e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 2.532657e-13, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3935
+           exitFlag: 1
+             objVal: 229.2913
+              error: [4×29 double]
+           maxError: 0.1225
+        amplify_ndv: 152
+         amplify_nc: 0
+       amplify_nceq: 116
+      amplify_nzbnd: 152
+
+demo: cart-pole (min force)
+demo: Amplify_MAIN_minTime --- run: 1
+Elapsed time is 0.585209 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.5368
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 2
+Elapsed time is 0.527883 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4808
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 3
+Elapsed time is 0.438151 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4032
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 4
+Elapsed time is 0.427987 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3919
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 5
+Elapsed time is 0.407310 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3717
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 6
+Elapsed time is 0.419501 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3754
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 7
+Elapsed time is 0.459048 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4091
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 8
+Elapsed time is 0.434504 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3979
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 9
+Elapsed time is 0.475189 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4361
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN_minTime --- run: 10
+Elapsed time is 0.463550 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 158
+          funcCount: 8541
+    constrviolation: 2.8612e-07
+           stepsize: 0.0516
+          algorithm: 'interior-point'
+      firstorderopt: 1.8619e-04
+       cgiterations: 124
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 1.861875e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 6.623329e-08, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.4264
+           exitFlag: 1
+             objVal: 1.1469
+              error: [4×9 double]
+           maxError: 1.9436
+        amplify_ndv: 52
+         amplify_nc: 0
+       amplify_nceq: 36
+      amplify_nzbnd: 52
+
+demo: cart-pole (min time)
+demo: Amplify_MAIN --- run: 1
+Elapsed time is 0.853414 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.5872
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 2
+Elapsed time is 0.539603 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3318
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 3
+Elapsed time is 0.550761 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3179
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 4
+Elapsed time is 0.563477 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3409
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 5
+Elapsed time is 0.609138 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3699
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 6
+Elapsed time is 0.598834 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3597
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 7
+Elapsed time is 0.563865 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3570
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 8
+Elapsed time is 0.535905 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3400
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 9
+Elapsed time is 0.543117 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3174
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN --- run: 10
+Elapsed time is 0.538522 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 27
+          funcCount: 28
+    constrviolation: 3.9623e-07
+           stepsize: 0.0754
+          algorithm: 'interior-point'
+      firstorderopt: 0.5278
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 7.868264e-04,↵is less than options.OptimalityTolerance = 1.000000e-03, and the relative maximum constraint↵violation, 1.228724e-07, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.3581
+           exitFlag: 1
+             objVal: 469.5507
+    sparsityPattern: [1×1 struct]
+              error: [10×6 double]
+           maxError: 0.0308
+        amplify_ndv: 197
+         amplify_nc: 28
+       amplify_nceq: 132
+      amplify_nzbnd: 197
+
+demo: five-link biped
+demo: Amplify_MAIN_forceSquared --- run: 1
+Elapsed time is 0.124048 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.1103
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 2
+Elapsed time is 0.050556 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0423
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 3
+Elapsed time is 0.051019 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0430
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 4
+Elapsed time is 0.051696 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0433
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 5
+Elapsed time is 0.050275 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0418
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 6
+Elapsed time is 0.050198 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0420
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 7
+Elapsed time is 0.047461 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0397
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 8
+Elapsed time is 0.049980 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0416
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 9
+Elapsed time is 0.048027 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0400
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block
+demo: Amplify_MAIN_forceSquared --- run: 10
+Elapsed time is 0.050126 seconds.
+
+ans = 
+
+  <a href="matlab:helpPopup('struct')" style="font-weight:bold">struct</a> with fields:
+
+         iterations: 19
+          funcCount: 20
+    constrviolation: 1.5959e-16
+           stepsize: 1.6782e-04
+          algorithm: 'interior-point'
+      firstorderopt: 1.0417e-05
+       cgiterations: 0
+            message: 'Local minimum found that satisfies the constraints.↵↵Optimization completed because the objective function is non-decreasing in ↵feasible directions, to within the value of the optimality tolerance,↵and constraints are satisfied to within the value of the constraint tolerance.↵↵<stopping criteria details>↵↵Optimization completed: The relative first-order optimality measure, 8.640651e-07,↵is less than options.OptimalityTolerance = 1.000000e-06, and the relative maximum constraint↵violation, 1.595946e-16, is less than options.ConstraintTolerance = 1.000000e-06.'
+       bestfeasible: [1×1 struct]
+            nlpTime: 0.0420
+           exitFlag: 1
+             objVal: 12.0559
+    sparsityPattern: [1×1 struct]
+              error: [2×29 double]
+           maxError: 4.1193e-05
+        amplify_ndv: 92
+         amplify_nc: 0
+       amplify_nceq: 58
+      amplify_nzbnd: 92
+
+demo: moving block

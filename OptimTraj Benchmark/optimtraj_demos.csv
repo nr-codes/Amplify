@@ -1,0 +1,51 @@
+DEMO_LABEL,DEMO_NAME,NUMBER,exitFlag,objVal,iterations,funcCount,constrviolation,nlpTime,Elapsed_time,nvars,nceq,ncineq,nzbnd
+acrobot,Amplify_MAIN,1,1,38.9608,55,5808,5.0449e-13,1.9058,2.067139,102,76,0,102
+acrobot,Amplify_MAIN,2,1,38.9608,55,5808,5.0449e-13,0.5135,0.565118,102,76,0,102
+acrobot,Amplify_MAIN,3,1,38.9608,55,5808,5.0449e-13,0.4213,0.476913,102,76,0,102
+acrobot,Amplify_MAIN,4,1,38.9608,55,5808,5.0449e-13,0.4326,0.493140,102,76,0,102
+acrobot,Amplify_MAIN,5,1,38.9608,55,5808,5.0449e-13,0.5419,0.601859,102,76,0,102
+acrobot,Amplify_MAIN,6,1,38.9608,55,5808,5.0449e-13,0.4413,0.492259,102,76,0,102
+acrobot,Amplify_MAIN,7,1,38.9608,55,5808,5.0449e-13,0.4368,0.492385,102,76,0,102
+acrobot,Amplify_MAIN,8,1,38.9608,55,5808,5.0449e-13,0.4174,0.467477,102,76,0,102
+acrobot,Amplify_MAIN,9,1,38.9608,55,5808,5.0449e-13,0.3889,0.437848,102,76,0,102
+acrobot,Amplify_MAIN,10,1,38.9608,55,5808,5.0449e-13,0.3829,0.432554,102,76,0,102
+cart-pole (min force),Amplify_MAIN_minForce,1,1,229.2913,38,5976,3.4239e-13,0.4166,0.455251,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,2,1,229.2913,38,5976,3.4239e-13,0.4050,0.441281,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,3,1,229.2913,38,5976,3.4239e-13,0.3770,0.411300,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,4,1,229.2913,38,5976,3.4239e-13,0.3774,0.415737,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,5,1,229.2913,38,5976,3.4239e-13,0.3812,0.416521,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,6,1,229.2913,38,5976,3.4239e-13,0.3711,0.407637,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,7,1,229.2913,38,5976,3.4239e-13,0.3718,0.408338,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,8,1,229.2913,38,5976,3.4239e-13,0.3900,0.432406,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,9,1,229.2913,38,5976,3.4239e-13,0.4210,0.459334,152,116,0,152
+cart-pole (min force),Amplify_MAIN_minForce,10,1,229.2913,38,5976,3.4239e-13,0.3935,0.446908,152,116,0,152
+cart-pole (min time),Amplify_MAIN_minTime,1,1,1.1469,158,8541,2.8612e-07,0.5368,0.585209,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,2,1,1.1469,158,8541,2.8612e-07,0.4808,0.527883,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,3,1,1.1469,158,8541,2.8612e-07,0.4032,0.438151,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,4,1,1.1469,158,8541,2.8612e-07,0.3919,0.427987,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,5,1,1.1469,158,8541,2.8612e-07,0.3717,0.407310,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,6,1,1.1469,158,8541,2.8612e-07,0.3754,0.419501,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,7,1,1.1469,158,8541,2.8612e-07,0.4091,0.459048,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,8,1,1.1469,158,8541,2.8612e-07,0.3979,0.434504,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,9,1,1.1469,158,8541,2.8612e-07,0.4361,0.475189,52,36,0,52
+cart-pole (min time),Amplify_MAIN_minTime,10,1,1.1469,158,8541,2.8612e-07,0.4264,0.463550,52,36,0,52
+five-link biped,Amplify_MAIN,1,1,469.5507,27,28,3.9623e-07,0.5872,0.853414,197,132,28,197
+five-link biped,Amplify_MAIN,2,1,469.5507,27,28,3.9623e-07,0.3318,0.539603,197,132,28,197
+five-link biped,Amplify_MAIN,3,1,469.5507,27,28,3.9623e-07,0.3179,0.550761,197,132,28,197
+five-link biped,Amplify_MAIN,4,1,469.5507,27,28,3.9623e-07,0.3409,0.563477,197,132,28,197
+five-link biped,Amplify_MAIN,5,1,469.5507,27,28,3.9623e-07,0.3699,0.609138,197,132,28,197
+five-link biped,Amplify_MAIN,6,1,469.5507,27,28,3.9623e-07,0.3597,0.598834,197,132,28,197
+five-link biped,Amplify_MAIN,7,1,469.5507,27,28,3.9623e-07,0.3570,0.563865,197,132,28,197
+five-link biped,Amplify_MAIN,8,1,469.5507,27,28,3.9623e-07,0.3400,0.535905,197,132,28,197
+five-link biped,Amplify_MAIN,9,1,469.5507,27,28,3.9623e-07,0.3174,0.543117,197,132,28,197
+five-link biped,Amplify_MAIN,10,1,469.5507,27,28,3.9623e-07,0.3581,0.538522,197,132,28,197
+moving block,Amplify_MAIN_forceSquared,1,1,12.0559,19,20,1.5959e-16,0.1103,0.124048,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,2,1,12.0559,19,20,1.5959e-16,0.0423,0.050556,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,3,1,12.0559,19,20,1.5959e-16,0.0430,0.051019,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,4,1,12.0559,19,20,1.5959e-16,0.0433,0.051696,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,5,1,12.0559,19,20,1.5959e-16,0.0418,0.050275,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,6,1,12.0559,19,20,1.5959e-16,0.0420,0.050198,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,7,1,12.0559,19,20,1.5959e-16,0.0397,0.047461,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,8,1,12.0559,19,20,1.5959e-16,0.0416,0.049980,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,9,1,12.0559,19,20,1.5959e-16,0.0400,0.048027,92,58,0,92
+moving block,Amplify_MAIN_forceSquared,10,1,12.0559,19,20,1.5959e-16,0.0420,0.050126,92,58,0,92
