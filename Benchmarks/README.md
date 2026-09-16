@@ -14,6 +14,28 @@ can be referenced for more precise implementation details.
 - Amplify + NEOS cloud time is from when the code enters and exist a function call to run(...).
   - The cloud time is the difference of `toc` and `tic` in `Amplify Benchmark/neos_benchmark.csv`.
 
+
+# Amplify
+## Command-Line Models
+To use a local copy of AMPL (e.g., `ampl.exe` or `ampl`) to run all of the
+example models, run `benchmark.bat` in a DOS shell or `benchmark.sh` in a bash
+shell.  Each script assumes the AMPL executable is in the active search path
+for launching executables.  Output files will either have the naming convention
+of `benchmark.[csv|txt]` or `benchmark_sh.[csv|txt]`.
+
+## NEOS Models
+To run the models using the NEOS server in batch mode, launch index.html.  Then
+drag and drop the examples in the `neos_server` directory or use the file
+explorer.  Successfully loaded examples will morph in color from yellow to
+green when successfully uploaded.  Yellow indicates that the first run is
+complete and dark green represents the final run is complete.  The default
+number of runs is 10, but can be changed in the javascript files found in the
+`html` folder.
+
+Alternatively, the files can be individually uploaded through the [NEOS
+interface](https://neos-server.org/neos/solvers/index.html).  Choose an
+appropriate solver and upload the relevant files.
+
 # OptimTraj
 Change into the `OptimTraj Benchmark` folder and run `run_demos.m`.  You can
 then inspect the output csv file `optimtraj_demos.csv`.  At the time of
