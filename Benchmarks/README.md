@@ -22,8 +22,18 @@ example models, run `benchmark.bat` in a DOS shell or `benchmark.sh` in a bash
 shell.  Each script assumes the AMPL executable is in the active search path
 for launching executables.  Output files will either have the naming convention
 of `benchmark.[csv|txt]` or `benchmark_sh.[csv|txt]`.  The input files are
-taken from `ampl-cli`.  The examples can also be run individually through the
-AMPL CLI as well.
+taken from `ampl-cli`.
+
+The examples can also be run individually through the AMPL CLI as well.  First,
+launch the AMPL CLI, then enter the following model, data, and include commands during the session:
+```
+ampl: model acrobot.mod;
+ampl: data acrobot.dat;
+ampl: include acrobot.run;
+ampl: exit;
+```
+`acrobot` can be replaced with the name of the any of the other examples in the
+`ampl-cli` folder.
 
 ## NEOS Models
 To run the models using the NEOS server in batch mode, launch index.html.  Then
