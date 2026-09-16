@@ -36,6 +36,9 @@ Alternatively, the files can be individually uploaded through the [NEOS
 interface](https://neos-server.org/neos/solvers/index.html).  Choose an
 appropriate solver and upload the relevant files.
 
+## LOC
+To count the number of lines of source code, run `cloc-aml.cmd` in the `Amplify LOC` folder.
+
 # OptimTraj
 Change into the `OptimTraj Benchmark` folder and run `run_demos.m`.  You can
 then inspect the output csv file `optimtraj_demos.csv`.  At the time of
