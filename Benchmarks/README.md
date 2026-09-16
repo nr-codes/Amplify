@@ -1,19 +1,11 @@
-# Timing Definition for Each Library
-Below is a list of how wall time is defined for each library.  The source code
-can be referenced for more precise implementation details.
-- OptimTraj wall time is from when the demo script starts until the NLP is solved.
-  - The elapsed time is stored in `Elapsed_time` in `OptimTraj Benchmark/optimtraj_demos.csv`.
-- Amplify (+ NEOS) wall time is from when the run script starts (reset to
-  _ampl_elapsed_time) until the NLP is solved (_ampl_elapsed_time  +
-  _solver_elapsed_time).
-  - The elapsed time is the sum of `ampl_elapsed_time` and `solve_elapsed_time` in `Amplify Benchmark/benchmark.csv` and `AmplifyBenchmark/neos_benchmark.csv`.
-- TROPIC wall time is from when the demo script starts until the NLP is solved.
-  - The elapsed time is stored in `Elapsed` in `TROPIC Benchmark/tropic_demos.csv`.
-- Horizon wall time is from when the demo script starts until the NLP is solved.
-  - The elapsed time is stored in `total_wall` in `Horizon Benchmark/ipopt_output.csv`.
-- Amplify + NEOS cloud time is from when the code enters and exist a function call to run(...).
-  - The cloud time is the difference of `toc` and `tic` in `Amplify Benchmark/neos_benchmark.csv`.
+# Overview
+The documentation below outlines how to run the benchmark examples for the Amplify, Horizon, OptimTraj, and TROPIC libraries.  The relevant folders contain scripts that will run the examples in a batch mode.  Users are expected to have working versions of a library's programming environment (i.e., AMPL, bash or WSL, Docker, or Matlab).
 
+## Pre-Requisites
+* Amplify requires either a [local copy of AMPL](https://portal.ampl.com/account/ampl/) or an [Internet connection and access to the NEOS server](https://neos-server.org/).
+* Horizon requires a bash shell environment as well as [Docker and the Horizon Docker image](https://advrhumanoids.github.io/horizon/docker.html) to be installed.  In a Windows environment, a batch script is provided that will launch a WSL instance, which needs to have a bash shell installed.
+* [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj) and [TROPIC](https://github.com/fevrem/TROPIC) require Matlab.
+  * OptimTraj also requires the Optimization and Symbolic Toolboxes for certain examples.
 
 # Amplify
 ## Command-Line Models
@@ -50,6 +42,11 @@ appropriate solver and upload the relevant files.
 
 ## LOC
 To count the number of lines of source code, run `cloc-aml.cmd` in the `Amplify LOC` folder.
+
+# Horizon
+Change into the `Horizon Benchmark` folder.  Then, run `docker_local_cmd.bat` in a DOS shell with an underlying WSL installation with a bash shell (e.g., Ubunutu 22.04), or run `docker_local_bash.sh` in a bash shell.  Several output files are generated.
+
+Both scripts assume Docker is in the search path.  The script `docker_local_cmd.bat` is just a wrapper script for `docker_local_bash.sh`.  The bash script has only been tested in Ubuntu 22.04 (WSL) and 24.04 (native Linux install).  The scripts are a modified version of the ones in the [OOPAMLBenchmarks](https://github.com/nr-codes/OOPAMLBenchmarks) repository.
 
 # OptimTraj
 Change into the `OptimTraj Benchmark` folder and run `run_demos.m`.  You can
@@ -105,3 +102,19 @@ Changes to `planar-7-dof-biped/*.m` are
 
 Changes to `@NLP/IPOPToptions.m` is
 - addition `print_level` option to suppress printing each interation.
+
+# Timing Definition for Each Library
+Below is a list of how wall time is defined for each library.  The source code
+can be referenced for more precise implementation details.
+- OptimTraj wall time is from when the demo script starts until the NLP is solved.
+  - The elapsed time is stored in `Elapsed_time` in `OptimTraj Benchmark/optimtraj_demos.csv`.
+- Amplify (+ NEOS) wall time is from when the run script starts (reset to
+  _ampl_elapsed_time) until the NLP is solved (_ampl_elapsed_time  +
+  _solver_elapsed_time).
+  - The elapsed time is the sum of `ampl_elapsed_time` and `solve_elapsed_time` in `Amplify Benchmark/benchmark.csv` and `AmplifyBenchmark/neos_benchmark.csv`.
+- TROPIC wall time is from when the demo script starts until the NLP is solved.
+  - The elapsed time is stored in `Elapsed` in `TROPIC Benchmark/tropic_demos.csv`.
+- Horizon wall time is from when the demo script starts until the NLP is solved.
+  - The elapsed time is stored in `total_wall` in `Horizon Benchmark/ipopt_output.csv`.
+- Amplify + NEOS cloud time is from when the code enters and exist a function call to run(...).
+  - The cloud time is the difference of `toc` and `tic` in `Amplify Benchmark/neos_benchmark.csv`.
