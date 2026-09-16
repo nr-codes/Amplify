@@ -21,7 +21,9 @@ To use a local copy of AMPL (e.g., `ampl.exe` or `ampl`) to run all of the
 example models, run `benchmark.bat` in a DOS shell or `benchmark.sh` in a bash
 shell.  Each script assumes the AMPL executable is in the active search path
 for launching executables.  Output files will either have the naming convention
-of `benchmark.[csv|txt]` or `benchmark_sh.[csv|txt]`.
+of `benchmark.[csv|txt]` or `benchmark_sh.[csv|txt]`.  The input files are
+taken from `ampl-cli`.  The examples can also be run individually through the
+AMPL CLI as well.
 
 ## NEOS Models
 To run the models using the NEOS server in batch mode, launch index.html.  Then
