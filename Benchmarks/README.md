@@ -1,7 +1,7 @@
 # Overview
 The original data used in the accompanying paper is in `summary.xlsx`.  It depends on other `.xlsx` files that reside in the subdirectories, so its content can change if any of these spreadsheets are changed.  In particular, running scripts in the subfolders will change the output data in `summary.xlsx` as the scripts overwrite the underlying data sources (i.e., `.txt`, `.csv`, and `.xlsx` files).
 
-The documentation below outlines how to run the benchmark examples for the Amplify, Horizon, OptimTraj, and TROPIC libraries.  The relevant folders contain scripts that will run the examples in a batch mode.  Users are expected to have working versions of a library's programming environment (i.e., AMPL, bash or WSL, Docker, or Matlab).
+The documentation below outlines how to run the benchmark examples for the Amplify, Horizon, OptimTraj, and TROPIC libraries.  The relevant folders contain scripts that will run the examples in a batch mode.  Users are expected to have working versions of a library's programming environment (i.e., AMPL, bash/WSL, Docker, or Matlab).
 
 ## Pre-Requisites
 * Amplify requires either a [local copy of AMPL](https://portal.ampl.com/account/ampl/) or an [Internet connection and access to the NEOS server](https://neos-server.org/).
