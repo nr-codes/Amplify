@@ -1,10 +1,38 @@
-# WORK IN PROGRESS
-9/16/2026: updated README in Benchmarks.  Still need to test code in a clean build/install.
+# Overview
+This repository contains the Amplify library for expressing robotics trajectory
+optimization problems in an algebraic modeling language.  The aim is for users
+and developers of the library to create NLPs that are reproducible (or
+replicable) and accessible by design.  A preprint of the paper will eventually
+be posted documenting the design philosophy, implementation, and contribution
+to the field of robotics.
 
-9/15/2026: this repository is still being set up.
 
-For reviewers of the accompanying paper, all data used to generate the results are in the [Benchmarks](./Benchmarks) folder.  The AMPL .mod, .dat, and .run files that make up an example in [Benchmarks/Amplify Benchmark/neos-server](./Benchmarks/Amplify%20Benchmark/neos-server/) can be uploaded to the [NEOS server](https://neos-server.org/) and executed.  Unless otherwise specified, most examples were solved using Ipopt (https://neos-server.org/neos/solvers/nco:Ipopt/AMPL.html).  For example, uploading [acrobot.mod](./Benchmarks/Amplify%20Benchmark/neos-server/acrobot.mod), [acrobot.dat](./Benchmarks/Amplify%20Benchmark/neos-server/acrobot.dat), [acrobot.run](./Benchmarks/Amplify%20Benchmark/neos-server/acrobot.run) to [NEOS's Ipopt interface](https://neos-server.org/neos/solvers/nco:Ipopt/AMPL.html) will replicate the results in the paper for the acrobot (choose the short priority option to minimize your wait time in the queue; it should solve in under 5 minutes).  This folder is largely finished.  It just needs to be tested in a new environment and better documented.  It also contains what is considered the core Amplify library in [Benchmarks/Amplify LOC/amplify.mod](./Benchmarks/Amplify%20LOC/amplify.mod).
+# Benchmarks
+The [Benchmarks](./Benchmarks) folder contains the code used to generate the
+data for a submitted paper under review.
 
-The files in the [Jupyter Notebook](Jupyter%20Notebook) folder contains the core Amplify modules, documentation, and a running example showing how everything works.  This notebook is a work in progress as I figure out the notebook interface.
+For reviewers of the accompanying paper, all data used to generate the results
+are in the [Benchmarks](./Benchmarks) folder.  The AMPL .mod, .dat, and .run
+files that make up an example in [Benchmarks/Amplify
+Benchmark/neos-server](./Benchmarks/Amplify%20Benchmark/neos-server/) can be
+uploaded to the [NEOS server](https://neos-server.org/) and executed.  Unless
+otherwise specified, most examples were solved using Ipopt
+(https://neos-server.org/neos/solvers/nco:Ipopt/AMPL.html).  For example,
+uploading
+[acrobot.mod](./Benchmarks/Amplify%20Benchmark/neos-server/acrobot.mod),
+[acrobot.dat](./Benchmarks/Amplify%20Benchmark/neos-server/acrobot.dat),
+[acrobot.run](./Benchmarks/Amplify%20Benchmark/neos-server/acrobot.run) to
+[NEOS's Ipopt
+interface](https://neos-server.org/neos/solvers/nco:Ipopt/AMPL.html) will
+replicate the results in the paper for the acrobot (choose the short priority
+option to minimize your wait time in the queue; it should solve in under 5
+minutes).  This folder is largely finished.  It just needs to be tested in a
+new environment and better documented.  It also contains what is considered the
+core Amplify library in [Benchmarks/Amplify
+LOC/amplify.mod](./Benchmarks/Amplify%20LOC/amplify.mod).
 
-More files may also appear in the future.
+# Documentation (WORK IN PROGRESS)
+The files in the [Jupyter Notebook](Jupyter%20Notebook) folder contains the
+core Amplify modules, documentation, and a running example showing how
+everything works.  This notebook is a work in progress as I figure out the
+notebook interface.
