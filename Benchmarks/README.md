@@ -30,20 +30,20 @@ ampl: exit;
 `ampl-cli` folder.
 
 ## NEOS Models
-To run the models using the NEOS server in batch mode, launch index.html.  Then
+To run the models using the NEOS server in batch mode, launch `index.html`.  Then
 drag and drop the examples in the `neos_server` directory or use the file
-explorer.  Successfully loaded examples will morph in color from yellow to
+explorer.  This interface will be apparent once you open `index.html`.  Successfully loaded examples will morph in color from yellow to
 green when successfully uploaded.  Yellow indicates that the first run is
 complete and dark green represents the final run is complete.  The default
-number of runs is 10, but can be changed in the javascript files found in the
+number of runs is 10, but this can be changed in the javascript files found in the
 `html` folder.
 
 Alternatively, the files can be individually uploaded through the [NEOS
 interface](https://neos-server.org/neos/solvers/index.html).  Choose an
 appropriate solver and upload the relevant files.
 
-## LOC
-To count the number of lines of source code, run `cloc-aml.cmd` in the `Amplify LOC` folder.
+## Amplify Lines of Source Code
+To count the number of lines of source code, run `cloc-aml.cmd` in the `Amplify LOC` folder.  The script will download and then run [cloc](https://github.com/AlDanial/cloc) on the Amplify core code in the directory.
 
 # Horizon
 Change into the `Horizon Benchmark` folder.  Then, run `docker_local_cmd.bat` in a DOS shell with an underlying WSL installation with a bash shell (e.g., Ubunutu 22.04), or run `docker_local_bash.sh` in a bash shell.  Several output files are generated.
