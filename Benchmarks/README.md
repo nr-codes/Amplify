@@ -1,13 +1,13 @@
 # Overview
 The original data used in the accompanying paper is in `summary.xlsx`.  It depends on other `.xlsx` files that reside in the subdirectories, so its content can change if any of these spreadsheets are changed.  In particular, running scripts in the subfolders will change the output data in `summary.xlsx` as the scripts overwrite the underlying data sources (i.e., `.txt`, `.csv`, and `.xlsx` files).
 
-The documentation below outlines how to run the benchmark examples for the Amplify, Horizon, OptimTraj, and TROPIC libraries.  The relevant folders contain scripts that will run the examples in a batch mode.  Users are expected to have working versions of a library's programming environment (i.e., AMPL, bash/WSL, Docker, or Matlab).
+The documentation below outlines how to run the benchmark examples for the Amplify, Horizon, OptimTraj, and TROPIC libraries.  The relevant folders contain scripts that will run the examples in a batch mode.  Users are expected to have working versions of a library's programming environment (e.g., AMPL, bash/WSL, Docker, Matlab, etc.).
 
 ## Pre-Requisites
 * Amplify requires either a [local copy of AMPL](https://portal.ampl.com/account/ampl/) or an [Internet connection and access to the NEOS server](https://neos-server.org/).
 * Horizon requires a bash shell environment as well as [Docker and the Horizon Docker image](https://advrhumanoids.github.io/horizon/docker.html) to be installed.  In a Windows environment, a batch script is provided that will launch a WSL instance, which needs to have a bash shell installed.
 * [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj) and [TROPIC](https://github.com/fevrem/TROPIC) require Matlab.
-  * OptimTraj also requires the Optimization and Symbolic Toolboxes for certain examples.
+  * OptimTraj also requires the Optimization and Symbolic toolboxes for certain examples.
 
 # Amplify
 ## Command-Line Models
@@ -19,7 +19,7 @@ of `benchmark.[csv|txt]` or `benchmark_sh.[csv|txt]`.  The input files are
 taken from `ampl-cli`.
 
 The examples can also be run individually through the AMPL CLI as well.  First,
-launch the AMPL CLI, then enter the following model, data, and include commands during the session:
+launch the AMPL CLI in the `ampl-cli` directory, then enter the following model, data, and include commands during the session:
 ```
 ampl: model acrobot.mod;
 ampl: data acrobot.dat;
@@ -32,7 +32,7 @@ ampl: exit;
 ## NEOS Models
 To run the models using the NEOS server in batch mode, launch `index.html`.  Then
 drag and drop the examples in the `neos_server` directory or use the file
-explorer.  This interface will be apparent once you open `index.html`.  Successfully loaded examples will morph in color from yellow to
+explorer in `index.html`; this interface will be apparent once you open `index.html`.  Successfully loaded examples will morph in color from yellow to
 green when successfully uploaded.  Yellow indicates that the first run is
 complete and dark green represents the final run is complete.  The default
 number of runs is 10, but this can be changed in the javascript files found in the
