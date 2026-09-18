@@ -43,7 +43,7 @@ interface](https://neos-server.org/neos/solvers/index.html).  Choose an
 appropriate solver and upload the relevant files.
 
 ## Amplify Lines of Source Code
-To count the number of lines of source code, run `cloc-aml.cmd` in the `Amplify LOC` folder.  The script will download and then run [cloc](https://github.com/AlDanial/cloc) on the Amplify core code in the directory.
+To count the number of lines of source code, run `cloc-aml.cmd` in the `Amplify LOC` folder.  The script will download and then run [cloc](https://github.com/AlDanial/cloc) on the Amplify code in the directory.
 
 # Horizon
 Change into the `Horizon Benchmark` folder.  Then, run `docker_local_cmd.bat` in a DOS shell with an underlying WSL installation with a bash shell (e.g., Ubunutu 22.04), or run `docker_local_bash.sh` in a bash shell.  Several output files are generated.
@@ -82,7 +82,7 @@ Additionally, the five-link biped demo has the following changes as well
 
 # TROPIC 
 Change into the `TROPIC Benchmark` folder and run `run_demos.m`.  You can then
-inspect the output csv file `tropic_demos.csv`.  At the time of testing, the
+inspect the output files, like the csv file `tropic_demos.csv`.  At the time of testing, the
 latest version of TROPIC was commit `956271d`.  The script was executed in
 Matlab 2024a.
 
