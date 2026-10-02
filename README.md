@@ -2,10 +2,9 @@
 This repository contains the Amplify library for expressing robotics trajectory
 optimization problems in an algebraic modeling language.  The aim is for users
 and developers of the library to create NLPs that are reproducible (or
-replicable) and accessible by design.  A preprint of the paper will eventually
-be posted documenting the design philosophy, implementation, and contribution
-to the field of robotics.
-
+replicable) and accessible by design.  A [preprint of the paper](https://arxiv.org/abs/2609.28377) 
+documents the design philosophy, implementation, and contribution to the field
+of robotics.
 
 # Benchmarks
 The [Benchmarks](./Benchmarks) folder contains the code used to generate the
